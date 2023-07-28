@@ -1,0 +1,54 @@
+/* Body Styles */
+body{
+	color: white;
+	background-color: #030B36;
+}
+
+
+/* Logo Styles */
+.logo{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	background-image: linear-gradient(#6E65EB,#FFFFFF);
+	border-radius: 5px;
+}
+.marvel-logo img{
+	height: 50px;
+}
+
+
+/* Navigation Styles */
+nav {
+	background-color: #E6030C;
+	color: #fff;
+	border-radius: 5px;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+nav a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 11px;
+}
+nav a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.container{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+@media screen and (min-width: 1000px) {
+	.container{
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+}

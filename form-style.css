@@ -1,0 +1,37 @@
+body{
+    font-weight: bold;
+}
+
+.form-msg{
+    display: flex;
+    justify-content: center;
+}
+
+input#msg{
+    width: 500px;
+    height: 100px;
+    border: 2px solid #E6030C;
+    border-radius: 5px;
+}
+
+#myButton{
+    background-color: #E6030C;
+  	color: white;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 35px;
+}
+
+input#mail{
+    width: 300px;
+    height: 33px;
+    border: none;
+}
+
+.submit-button{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
